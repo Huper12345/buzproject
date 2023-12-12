@@ -1,0 +1,20 @@
+.Logo-Img {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  cursor: pointer;
+  margin: 20px 0 30px 0;
+}
+
+.Amateg {
+  max-width: 150px;
+  margin-left: 20px;
+  cursor: pointer;
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .Logo-Img {
+    max-width: 110px;
+  }
+}
