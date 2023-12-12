@@ -1,0 +1,29 @@
+@import "../../helpers/fonts/fonts.scss";
+@import "../../helpers/colors/colors.scss";
+
+.Header {
+    font-family: "Rotonda-Bold";
+    font-weight: 600;
+    font-weight: 300;
+    font-size: 30px;
+    background-color: $white;
+    z-index: 2000;
+    min-height: 70px;
+
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.Header-Inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
