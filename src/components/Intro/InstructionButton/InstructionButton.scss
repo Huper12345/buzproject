@@ -1,0 +1,23 @@
+
+@import "../../../helpers//fonts/fonts.scss";
+@import "../../../helpers/colors/colors.scss";
+
+
+
+.Instruction-Button {
+    background-color: $green;
+    display: flex;
+    font-size: 25px;
+    padding: 5px 22px;
+    border-radius: 15px;
+    align-items: center;
+    color: $white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.Instruction-Button:hover {
+    background-color: $blue;
+}
