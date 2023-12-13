@@ -1,0 +1,77 @@
+@import "../../../colors/colors.scss";
+
+.Plus-Icon {
+  display: block;
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  transition: 0.1s;
+  margin: 10px 0px 0px 15px;
+  transition: 0.3s;
+  position: absolute;
+  left: -30px;
+  top: 10px;
+}
+
+.Plus-Icon.active::after {
+ background-color: $blue;
+}
+
+.Plus-Icon.active::before {
+  background-color: $blue;
+  transition: 0.3s;
+ }
+
+.Plus-Icon::after {
+  content: "";
+  display: block;
+  width: 17px;
+  height: 3px;
+  background-color: $gray;
+  transform: translateY(-3px);
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.Plus-Icon::before  {
+  content: "";
+  transform: rotate(90deg);
+  display: block;
+  width: 17px;
+  border-radius: 20px;
+  height: 3px;
+  background-color: $gray;
+  transition: 0.3s;
+}
+
+.Plus-Icon.active::after {
+  transform: translateY(-3px);
+  transition: 0.3s;
+}
+
+.Plus-Icon.active::before {
+  transform: rotate(0deg);
+  transition: 0.3s;
+}
+
+.Advantages-Button:hover .PlusIcon::after {
+  background-color: $blue;
+}
+
+@media (min-width: 900px) {
+  .Plus-Icon:hover::after {
+    background-color: $blue;
+  }
+  
+  .Plus-Icon:hover::before {
+    background-color: $blue;
+  }
+}
+
+@media (max-width: 426px) {
+  .Plus-Icon {
+    margin: 20px 16px 0px 15px;
+  }
+  
+}
+

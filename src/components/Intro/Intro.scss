@@ -1,0 +1,41 @@
+@import "../../helpers/colors/colors.scss";
+@import "../../helpers/fonts/fonts.scss";
+
+.Intro {
+    height: 100vh;
+    width: 100%;
+    padding-top: 200px;
+    min-height: 700px;
+}
+
+
+.Intro-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Advantages-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Intro-title {
+    font-family: 'Rotonda-Bold';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 37px;
+    color: $violet;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.Intro-content {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 12px 0px 0px 80px;
+}

@@ -1,0 +1,34 @@
+@import "../../fonts/fonts.scss";
+@import "../../colors/colors.scss";
+
+.Top-Button {
+  width: 80px;
+  height: 80px;
+  fill: $violet;
+  cursor: pointer;
+  margin-right: 2px;
+  transition: 0.3s;
+}
+
+.Top-Button-Wrapper {
+  display: none;
+}
+
+.Top-Button-Wrapper.is-visible {
+  display: block;
+  font-size: 0;
+  border: 0;
+  background-color: inherit;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  z-index: 3000;
+}
+
+@media (min-width: 900px) {
+
+  .Top-Button:hover {
+    fill: $blue;
+  }
+
+}

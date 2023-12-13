@@ -8,6 +8,16 @@
 }
 
 @font-face {
+    font-family: 'PTSans-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('RotondaC-Bold'),
+         url('../fonts/PTSans-Regular.woff') format('woff'),
+}
+
+
+@font-face {
     font-family: 'PTSans-Bold';
     font-style: bold;
     font-weight: 600;

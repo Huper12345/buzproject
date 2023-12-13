@@ -1,0 +1,11 @@
+@import "../../../../helpers/colors/colors.scss";
+
+.Document-Icon {
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+  fill: none;
+  cursor: pointer;
+  stroke: $white;
+  transition: 0.2s;
+}

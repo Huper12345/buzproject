@@ -1,0 +1,99 @@
+@import "../../../helpers//fonts/fonts.scss";
+@import "../../../helpers/colors/colors.scss";
+
+
+
+.Advantages {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.Advantages.Hide {
+  display: none;
+}
+
+.Advantages-Button {
+  cursor: pointer;
+  border: 0;
+  background-color: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 30px;
+  color: $gray;
+  text-align: left;
+  width: 100%;
+  user-select: none;
+  font-family: 'PTSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 10px;
+}
+
+.Advantages-Button.purple {
+  color: $gray;
+}
+
+.Advantages-Button.active {
+  color: $violet;
+  font-size: 30px;
+  font-family: 'PTSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.Advantages-Button.active {
+  color: $blue;
+}
+
+.Dropdown-Menu {
+  display: flex;
+  margin-left: 15px;
+  background-color: rgba($gray, $alpha: 0.2);
+  border-radius: 15px;
+}
+
+.Drop-Menu-Text {
+  font-size: 20px;
+  color: $blue;
+  text-align: left;
+  user-select: none;
+  width: 100%;
+  padding: 5px 20px 5px 20px;
+  font-family: 'PTSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+@media (max-width: 426px) {
+  .Advantages-Button {
+    font-size: 20px;
+  }
+
+  .Advantages-Button.active {
+    font-size: 20px;
+  }
+  
+}
+
+@media (min-width: 900px) {
+  .Advantages-Button:hover  {
+    color: $blue;
+  }
+  
+  .Advantages-Button:hover .Plus-Icon::after {
+    background-color: $blue;
+  }
+  
+  .Advantages-Button:hover .Plus-Icon::before {
+    background-color: $blue;
+  }
+}
