@@ -11,6 +11,13 @@
 
 .Intro-inner {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Intro-wrapper {
+    display: flex;
     flex-direction: row;
     justify-content: center;
 }

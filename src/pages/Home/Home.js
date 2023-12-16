@@ -8,6 +8,7 @@ export const Home = () => {
         <div className="Home">
             <Header/>
             <Intro />
+   
         </div>
     )
 }

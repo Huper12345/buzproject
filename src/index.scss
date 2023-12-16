@@ -51,6 +51,12 @@ code {
   padding: 0 15px;
 }
 
+.white-back {
+  background-color: $white;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
 .section {
   padding: 35px 0;
 }
