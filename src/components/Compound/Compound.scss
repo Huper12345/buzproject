@@ -1,0 +1,168 @@
+@import "../../helpers/colors/colors.scss";
+@import "../../helpers/fonts/fonts.scss";
+
+.Compound {
+background: url("../../helpers/assets/images/home/newDots.png") no-repeat;
+background-size: cover;
+background-color: $lightgray;
+}
+
+.Compound-Title {
+    font-family: 'Rotonda-Bold';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.Compound-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.Compound-Content {
+    width: 45%;
+    background-color: $white;
+    padding: 50px 50px;
+    max-width: 450px;
+    border-radius: 20px;
+    margin: 20px 30px;
+
+}
+
+.Buttons-Container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+.Compound-Buttons {
+    max-width: 600px;
+    padding-bottom: 30px;
+    width: 45%;
+}
+
+// Text switcher
+
+.Compound-White-Text {
+    font-size: 17px;
+    text-align: left;
+    width: 100%;
+    min-height: 300px;
+    border: none;
+    font-family: 'PTSans-Bold';
+    font-style: bold;
+    font-weight: 600;
+    color: $violet;
+    resize: none;
+}
+
+.Compound-White-Text:focus {
+    outline: none;
+    border: 0;
+    user-select: none;
+}
+
+
+.hide {
+    display: none;
+}
+
+.Switcher-Img {
+    max-width: 90%;
+    padding: 100.5px;
+}
+
+
+// Buttons
+
+.Compound-Button {
+    font-family: 'PTSans-Bold';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 23px;
+    padding: 3px 9px 3px 45px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    position: relative;
+    border: 2.5px solid $violet;
+    background-color: $white;
+    color: $violet;
+    cursor: pointer;
+    min-width: 230px;
+    text-align: center;
+    margin: 5px 5px 20px 5px;
+    transition: 0.6s;
+    max-height: 40px;
+}
+
+.Compound-Button.padding-30 {
+    padding: 3px 9px 3px 30px;
+}
+
+.Compound-Button.fontSizeMin {
+    font-size: 15px;
+    max-width: 220px;
+    padding: 2px 9px 2px 37px;
+    line-height: 1.05;
+}
+
+.Compound-Button:hover::before {
+    background-color: $blue;
+    transition: 0.3s;
+}
+
+.Compound-Button:hover {
+    border-color: $blue;
+    color: $blue;
+    transition: 0.3s;
+}
+
+.active {
+    border-color: $blue;
+    color: $blue;
+}
+
+.Compound-Button::before {
+    position: absolute;
+    content: "";
+    height: 39px;
+    width: 39px;
+    background-color: $violet;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50% ;
+    left: -4px;
+    top: -2px;
+    transition: 0.3s;
+}
+
+.Compound-Button-subtext {
+    position: absolute;
+    font-size: 15px;
+    max-width: 10px;
+    line-height: 0.8;
+    top: 5px;
+    left: 8px;
+    color: $white;
+}
+
+.Compound-Button-subtext.additional13 {
+    font-size: 14px;
+    left: 3.5px;
+    top: 6px;
+}
+
+.Compound-Button-subtext.additional12 {
+    font-size: 14px;
+    left: 7px;
+    top: 6px;
+}
