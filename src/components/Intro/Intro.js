@@ -6,6 +6,7 @@ import { Pack } from './Pack';
 import { Advantages } from '../../helpers/components/Advantages';
 import { InstructionButton } from './InstructionButton';
 import { Preferences } from './Preferences';
+import { Title } from '../../helpers/components/Title';
 
 
 export const Intro = () => {
@@ -72,6 +73,7 @@ const refComponent = createRef();
                     </div> {/* Intro-wrapper */}
                     <Preferences />
                 </div> {/* Intro-inner */}
+                <Title TitleText="Состав" />
             </div>
         </div>
     );

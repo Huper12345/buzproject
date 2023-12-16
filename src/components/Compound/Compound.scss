@@ -1,0 +1,26 @@
+@import "../../helpers/colors/colors.scss";
+@import "../../helpers/fonts/fonts.scss";
+
+.Compound {
+background: url("../../helpers/assets/images/home/newDots.png") no-repeat;
+background-size: cover;
+background-color: $lightgray;
+}
+
+.Compound-Title {
+    font-family: 'Rotonda-Bold';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.Buttons-Container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 585px;
+}
