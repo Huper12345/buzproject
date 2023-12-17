@@ -74,8 +74,8 @@ background-color: $lightgray;
 }
 
 .Switcher-Img {
-    max-width: 90%;
-    padding: 100.5px;
+    max-width: 100%;
+    padding: 70px 40px;
 }
 
 
@@ -126,8 +126,8 @@ background-color: $lightgray;
 }
 
 .active {
-    border-color: $blue;
-    color: $blue;
+    border-color: $green;
+    color: $green;
 }
 
 .Compound-Button::before {

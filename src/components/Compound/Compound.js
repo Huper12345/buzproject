@@ -7,9 +7,15 @@ import SwitcherImage from "../../helpers/assets/images/compoundTextSwitcher/buzz
 
 export const Compound = () => {
 
+    //SwitcherImage
+
+    const [switcherImage, setSwitherImage] = useState("Switcher-Img")
+
+    const [compoundText, setCompoundText] = useState("Compound-White-Text hide")
+
   // Classes
     
-    const [BuzinaClass, setBuzinaClass] = useState("Compound-Button active");
+    const [BuzinaClass, setBuzinaClass] = useState("Compound-Button");
 
     //btn 2
 
@@ -49,11 +55,13 @@ export const Compound = () => {
     const btn3Active = "Compound-Button fontSizeMin active"
 
 
-
-    const [value, setValue] = useState("Используется при гриппе, простуде, кашле, легких воспалениях верхних дыхательных путей и для укрепления иммунитета. Поэтому традиционно применяют для профилактики и при лечении простудных состояний инфекционных заболеваниях дыхательных путей. Чёрная бузина – эффективное средство против сухого кашля и кашля с отхождением мокроты. Также установлено, что цветки и плоды бузины обладают высоким профилем безопасности и могут применяться людьми всех возрастов, включая младенцев и детей. Ягоды бузины имеют высочайший уровень антиоксидантной активности, по этим качествам почти в два раза превосходя клюкву и в пять раз чернику за счет содержания флавоноидов, в частности антоцианов, которые выполняют роль антиоксидантов, в значительной степени повышая уровень иммунной защиты организма на присутствие инородного агента - вирусов, бактерий, аллергенов. Также ягоды бузины обладают мощными противовирусными свойствами.")
+    const [value, setValue] = useState("Compound-White-Text")
     
     const Buzina = () => {
         setValue("Используется при гриппе, простуде, кашле, легких воспалениях верхних дыхательных путей и для укрепления иммунитета. Поэтому традиционно применяют для профилактики и при лечении простудных состояний инфекционных заболеваниях дыхательных путей. Чёрная бузина – эффективное средство против сухого кашля и кашля с отхождением мокроты. Также установлено, что цветки и плоды бузины обладают высоким профилем безопасности и могут применяться людьми всех возрастов, включая младенцев и детей. Ягоды бузины имеют высочайший уровень антиоксидантной активности, по этим качествам почти в два раза превосходя клюкву и в пять раз чернику за счет содержания флавоноидов, в частности антоцианов, которые выполняют роль антиоксидантов, в значительной степени повышая уровень иммунной защиты организма на присутствие инородного агента - вирусов, бактерий, аллергенов. Также ягоды бузины обладают мощными противовирусными свойствами.")
+
+        setSwitherImage("Switcher-Img hide")
+        setCompoundText("Compound-White-Text")
 
         // btn1
         setBuzinaClass(btn1Active); //Main
@@ -75,11 +83,11 @@ export const Compound = () => {
 
     }
     
-
     const Selen = () => {
         setValue("Является ключевым звеном в антиоксидантной системе детского организма. Ферменты, которые связаны с селеном, защищают от свободных радикалов, аллергенов, инфекционных агентов. Таким образом реализуется защита от вирусов и бактерий, грибков и паразитов, опухолевых клеток и аллергии.")
 
-        setBuzinaClass("Compound-Button");
+        setSwitherImage("Switcher-Img hide")
+        setCompoundText("Compound-White-Text")
 
          // btn1
          setBuzinaClass(btn1StandartClass); 
@@ -97,15 +105,15 @@ export const Compound = () => {
          setUltraBClass(btn3StandartClass);
          setUltraLClass(btn3StandartClass);
          setUltraSClass(btn3StandartClass);
-
-
      
     }
 
-   
 
     const Zink = () => {
         setValue("Способствует мобилизации защитных сил организма. Под его воздействием возрастает количество цитокинов – молекул, которые переносят информацию об опасности. Цинк (Zn2+) – незаменимый компонент клеточных мембран и обеспечения клеточного звена иммунитета. ")
+
+            setSwitherImage("Switcher-Img hide")
+            setCompoundText("Compound-White-Text")
 
            // btn1
            setBuzinaClass(btn1StandartClass); 
@@ -130,6 +138,12 @@ export const Compound = () => {
     const VitaminA = () => {
         setValue("Способствует укреплению слизистой оболочки дыхательных путей, которые являются первым барьером на пути вируса. Дефицит витамина A снижает сопротивляемость организма инфекциям и замедляет иммунный ответ.  ")
 
+            setSwitherImage("Switcher-Img hide")
+            setCompoundText("Compound-White-Text")
+
+            setSwitherImage("Switcher-Img hide")
+            setCompoundText("Compound-White-Text")
+
            // btn1
            setBuzinaClass(btn1StandartClass); 
 
@@ -152,6 +166,9 @@ export const Compound = () => {
 
     const VitaminC = () => {
         setValue("Витамин С способствует поддержанию сопротивляемости организма, защищает ребенка от бактерий, вирусов, инфекций тормозит развитие аллергических реакций, укрепляет кровеносные сосуды, нейтрализует действие свободных радикалов. Витамин С повышает устойчивость клеток организма к воздействию вирусов. Данный витамин стимулирует выработку интерферона – вещества, необходимого для борьбы с вирусной атакой.")
+
+              setSwitherImage("Switcher-Img hide")
+              setCompoundText("Compound-White-Text")
 
               // btn1
               setBuzinaClass(btn1StandartClass); 
@@ -176,6 +193,9 @@ export const Compound = () => {
     const VitaminD3 = () => {
         setValue("Витамин D участвует в заживлении ран, снижает вероятность инфекций верхних дыхательных путей")
 
+             setSwitherImage("Switcher-Img hide")
+             setCompoundText("Compound-White-Text")
+
               // btn1
               setBuzinaClass(btn1StandartClass); 
 
@@ -198,6 +218,9 @@ export const Compound = () => {
 
     const VitaminE = () => {
         setValue("Витамин Е увеличивает защитные силы организма и стабилизирует работу кровеносной, мышечной, нервной систем.")
+
+        setSwitherImage("Switcher-Img hide")
+        setCompoundText("Compound-White-Text")
 
         // btn1
         setBuzinaClass(btn1StandartClass); 
@@ -222,6 +245,9 @@ export const Compound = () => {
     const UltraB = () => {
         setValue("Клеточный метабиотик, состоящий из продуктов физико-ферментативного расщепления пробиотических клеток. Продукт инактивации и физико-ферментативного расщепления клеток пробиотических бактерий Bifidobacterium bifidum. Обладает иммуномодулирующим действием, способствует снижению веса и поддержанию нормальной работы кишечника.")
 
+            setSwitherImage("Switcher-Img hide")
+            setCompoundText("Compound-White-Text")
+
              // btn1
              setBuzinaClass(btn1StandartClass); 
 
@@ -244,6 +270,9 @@ export const Compound = () => {
 
     const UltraL = () => {
         setValue("Клеточный метабиотик, состоящий из продуктов физико-ферментативного расщепления пробиотических клеток. Продукт инактивации и физико-ферментативного расщепления клеток пробиотических бактерий Lactobacillus acidophilus. Обладает противоаллергическими, антимикробными, противовоспалительными свойствами. Используется для поддержания работы кишечника и стимуляции роста собственной микробиоты.")
+
+        setSwitherImage("Switcher-Img hide")
+        setCompoundText("Compound-White-Text")
 
          // btn1
          setBuzinaClass(btn1StandartClass); 
@@ -269,6 +298,9 @@ export const Compound = () => {
     const UltraS = () => {
         setValue("Клеточный метабиотик, состоящий из продуктов физико-ферментативного расщепления пробиотических клеток. Продукт инактивации и физико-ферментативного расщепления клеток пробиотических бактерий Streptococcus thermophilus. Стимулирует врожденный иммунитет, обеспечивает широкую биологическую активность в отношении здоровья кожи. Стимулирует регенерацию эпителиальных клеток.")
 
+            setSwitherImage("Switcher-Img hide")
+            setCompoundText("Compound-White-Text")
+
              // btn1
              setBuzinaClass(btn1StandartClass); 
 
@@ -289,7 +321,6 @@ export const Compound = () => {
     }
 
    
-    
     return(
         <div className="Compound">
             
@@ -302,12 +333,12 @@ export const Compound = () => {
                 
                         <div className="Buttons-Container">
                                              
-                        <button id="1" onClick={Buzina} className={BuzinaClass} >
+                        <button onClick={Buzina} className={BuzinaClass} >
                         Экстракт бузины
                         <div className="Compound-Button-subtext">28 мг</div>
                         </button>
 
-                         <button  id="0" onClick={Selen} className={SelenClass}>
+                         <button onClick={Selen} className={SelenClass}>
                          Селен
                         <div className="Compound-Button-subtext additional13">6,75 мкг</div>
                         </button>
@@ -361,8 +392,8 @@ export const Compound = () => {
                     
                         <div className="CompoundTextSwitcher">
 
-                        <img alt="Buzzicol" src={SwitcherImage} className='Switcher-Img hide ' ></img>
-                        <textarea value={value} className="Compound-White-Text" >
+                        <img alt="Buzzicol" src={SwitcherImage} className={switcherImage} ></img>
+                        <textarea value={value} className={compoundText} >
                         </textarea >
                         </div>
 
