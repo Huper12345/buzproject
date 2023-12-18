@@ -1,2 +1,104 @@
 @import "../../helpers/colors/colors.scss";
 @import "../../helpers/fonts/fonts.scss";
+
+.WhenBuy-content {
+    background-color: $white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 60px;
+}
+
+
+.When-Buy-Img {
+    display: block;
+    max-width: 270px;
+}
+
+.WhenBuy-Text {
+    max-width: 410px;
+    height: 100%;
+    margin: 13px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.WhenBuy-Text-Content {
+    width: 100%;
+    height: 100%;
+    border: 3px solid $violet;
+    padding: 10px 20px;
+    border-radius: 13px;
+}
+
+.Buy-Text-Title {
+    font-family: 'Rotonda-Bold';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 24px;
+    color: $violet;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.Buy-Text-Subtitle {
+    font-family: 'PTSans-Bold';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 21px;
+    color: $violet;
+    text-align: left;
+    line-height: 1.05;
+    margin-top: 5px;
+}
+
+.Buy-Subtile-Additional {
+    color: $green;
+}
+
+.Order-Button {
+    border: 0;
+    background-color: inherit;
+    font-family: 'Rotonda-Bold';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 28px;
+    color: $violet;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 30px 5px 10px 5px;
+}
+
+.WhenBuy-Order {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 290px;
+    padding-top: 12.5px;
+    background: inherit;
+    background: linear-gradient($green 0%);
+    padding: 15px 20px 0px 20px;
+    border-radius: 13px;
+    transition-property: background-color;
+}
+
+.WhenBuy-Order.active {
+    opacity: 1;
+    background: $green;
+    background: linear-gradient(140deg, $green 0%, $blue 49%, $violet 100%);
+    border-radius: 13px;
+    transition-property: background-color;
+}
+
+
+
+@media (min-width: 989px) {
+    .Order-Button:hover {
+        color: $blue;
+    }
+
+    }

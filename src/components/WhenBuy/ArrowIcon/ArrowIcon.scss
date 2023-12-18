@@ -1,0 +1,15 @@
+@import "../../../helpers/colors/colors.scss";
+
+.Arrow-Icon {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  fill: $violet;
+  cursor: pointer;
+  stroke: $white;
+  transition: 0.3s;
+}
+
+.Order-Button:hover .Arrow-Icon {
+  fill: $blue;
+}
