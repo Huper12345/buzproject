@@ -2,6 +2,7 @@ import "./Compound.scss";
 import React, {useState } from 'react';
 
 import SwitcherImage from "../../helpers/assets/images/compoundTextSwitcher/buzzicolImage.png"
+import { Title } from "../../helpers/components/Title";
 
 
 
@@ -322,85 +323,90 @@ export const Compound = () => {
 
    
     return(
-        <div className="Compound">
+        <div className="Compound-wrapper">
             
+            <div className="container">
+            <Title TitleText="Состав" />
+            </div>
 
-            <div className="container gray-back">
-                <div className="Compound-inner">
-                    <div className="Compound-Buttons">
-                        <h3 className="Compound-Title">1 таблетка содержит:</h3>
+            <div className="Compound">
+                <div className="container gray-back">
+                    <div className="Compound-inner">
+                        <div className="Compound-Buttons">
+                            <h3 className="Compound-Title">1 таблетка содержит:</h3>
 
-                
-                        <div className="Buttons-Container">
-                                             
-                        <button onClick={Buzina} className={BuzinaClass} >
-                        Экстракт бузины
-                        <div className="Compound-Button-subtext">28 мг</div>
-                        </button>
-
-                         <button onClick={Selen} className={SelenClass}>
-                         Селен
-                        <div className="Compound-Button-subtext additional13">6,75 мкг</div>
-                        </button>
-
-                        <button onClick={Zink}  className={ZinkClass}>
-                        Цинк
-                        <div className="Compound-Button-subtext additional13">2,48 мкг</div>
-                        </button>
-
-                         <button onClick={VitaminA} className={VitaminAClass}>
-                         Витамин А
-                        <div className="Compound-Button-subtext additional13">0,12 мг</div>
-                        </button>
-
-                        <button onClick={VitaminC} className={VitaminCClass}>
-                        Витамин C
-                        <div className="Compound-Button-subtext">16 мг</div>
-                        </button>
-
-                         <button onClick={VitaminD3} className={VitaminD3Class}>
-                         Витамин D3
-                        <div className="Compound-Button-subtext additional12">3 мкг</div>
-                        </button>
-
-                        <button onClick={VitaminE} className={VitaminEClass}>
-                        Витамин E
-                        <div className="Compound-Button-subtext">2 мг</div>
-                        </button>        
-
-                        <button onClick={UltraB} className={UltraBClass}>
-                        Ультрализат пептидный Bifidobacterium bifidum
-                        <div className="Compound-Button-subtext">10 мг</div>
-                        </button>
-
-                        <button onClick={UltraL} className={UltraLClass}>
-                        Ультрализат пептидный
-                        Lactobacillus acidophilus
-                        <div className="Compound-Button-subtext">10 мг</div>
-                        </button>
-
-                         <button onClick={UltraS} className={UltraSClass}>
-                         Ультрализат пептидный
-                        Streptococcus thermophilus
-                        <div className="Compound-Button-subtext">10 мг</div>
-                        </button>                
-
-                        </div>
-                    </div> {/*Compound-buttons */}
-
-                    <div className="Compound-Content">
                     
-                        <div className="CompoundTextSwitcher">
+                            <div className="Buttons-Container">
+                                                
+                            <button onClick={Buzina} className={BuzinaClass} >
+                            Экстракт бузины
+                            <div className="Compound-Button-subtext">28 мг</div>
+                            </button>
 
-                        <img alt="Buzzicol" src={SwitcherImage} className={switcherImage} ></img>
-                        <textarea value={value} className={compoundText} >
-                        </textarea >
+                            <button onClick={Selen} className={SelenClass}>
+                            Селен
+                            <div className="Compound-Button-subtext additional13">6,75 мкг</div>
+                            </button>
+
+                            <button onClick={Zink}  className={ZinkClass}>
+                            Цинк
+                            <div className="Compound-Button-subtext additional13">2,48 мкг</div>
+                            </button>
+
+                            <button onClick={VitaminA} className={VitaminAClass}>
+                            Витамин А
+                            <div className="Compound-Button-subtext additional13">0,12 мг</div>
+                            </button>
+
+                            <button onClick={VitaminC} className={VitaminCClass}>
+                            Витамин C
+                            <div className="Compound-Button-subtext">16 мг</div>
+                            </button>
+
+                            <button onClick={VitaminD3} className={VitaminD3Class}>
+                            Витамин D3
+                            <div className="Compound-Button-subtext additional12">3 мкг</div>
+                            </button>
+
+                            <button onClick={VitaminE} className={VitaminEClass}>
+                            Витамин E
+                            <div className="Compound-Button-subtext">2 мг</div>
+                            </button>        
+
+                            <button onClick={UltraB} className={UltraBClass}>
+                            Ультрализат пептидный Bifidobacterium bifidum
+                            <div className="Compound-Button-subtext">10 мг</div>
+                            </button>
+
+                            <button onClick={UltraL} className={UltraLClass}>
+                            Ультрализат пептидный
+                            Lactobacillus acidophilus
+                            <div className="Compound-Button-subtext">10 мг</div>
+                            </button>
+
+                            <button onClick={UltraS} className={UltraSClass}>
+                            Ультрализат пептидный
+                            Streptococcus thermophilus
+                            <div className="Compound-Button-subtext">10 мг</div>
+                            </button>                
+
+                            </div>
+                        </div> {/*Compound-buttons */}
+
+                        <div className="Compound-Content">
+                        
+                            <div className="CompoundTextSwitcher">
+
+                            <img alt="Buzzicol" src={SwitcherImage} className={switcherImage} ></img>
+                            <textarea value={value} className={compoundText} >
+                            </textarea >
+                            </div>
+
                         </div>
-
                     </div>
-                </div>
-            </div> 
+                </div> 
 
+            </div>
         </div>
         
     );
