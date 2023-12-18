@@ -12,8 +12,10 @@ import { useState } from "react"
 
 
 export const WhenBuy = () => {
+
     
     const [orderBox, setOrderBox] = useState("WhenBuy-Order")
+    
 
     const handleBox = () => {
         setOrderBox("WhenBuy-Order active")
@@ -43,7 +45,7 @@ export const WhenBuy = () => {
 
                         </div>
 
-                        <div className={orderBox}>
+                       <div className={orderBox}>
                             <MarketButton
                             text="103.by"
                             src={market103}
