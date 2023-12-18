@@ -1,0 +1,72 @@
+@import "../../../helpers/fonts/fonts.scss";
+@import "../../../helpers/colors/colors.scss";
+
+
+.When-Buy-MarketPlace {
+    position: relative;
+    transition: 0.3s;
+    margin: 0px 0px 20px 0px;
+    display: block;
+}
+
+.Buy-Market-Text {
+    font-family: 'Rotonda-Bold';
+    font-style: bold;
+    font-weight: 600;
+    color: $white;
+    font-size: 23px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 9px;
+    right: 22%;
+    transform: translateX(-22%);
+    transition: 0.3s;
+}
+
+.Buy-Market-Text.standart {
+    right: 7%;
+    transform: translateX(-7%);
+}
+
+.Buy-Market-Text.ozon {
+    right: 26%;
+    transform: translateX(-26%);
+}
+
+.Buy-Market-IMG {
+    display: block;
+    max-width: 220px;
+    height: 100%;
+    position: relative;
+}
+
+.When-Buy-MarketPlace::after {
+    content: "";
+    display: block;
+    opacity: 0;
+    width: 100%;
+    min-width: 220px;
+    border-radius: 11px;
+    height: 100%;
+    border: 3px solid $green;
+    position: absolute;
+    top: 0;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    transition: 0.3s;
+    padding: 0.5px;
+    }
+
+
+@media (min-width: 989px) {
+    .When-Buy-MarketPlace:hover::after {
+        opacity: 1;
+        transition: 0.3s;
+    }
+
+    .When-Buy-MarketPlace:hover .Buy-Market-Text {
+        color: $blue;
+    }
+
+    }

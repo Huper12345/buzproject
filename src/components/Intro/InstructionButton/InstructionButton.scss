@@ -21,3 +21,10 @@
 .Instruction-Button:hover {
     background-color: $blue;
 }
+
+
+@media (min-width: 989px) {
+    .Instruction-Button:hover {
+        background-color: $blue;
+    }
+    }

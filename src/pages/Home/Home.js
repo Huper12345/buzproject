@@ -2,6 +2,7 @@ import "./Home.scss"
 import { Header } from "../../components/Header"
 import { Intro } from "../../components/Intro"
 import { Compound } from "../../components/Compound"
+import { WhenBuy } from "../../components/WhenBuy"
 
 
 export const Home = () => {
@@ -10,6 +11,7 @@ export const Home = () => {
             <Header/>
             <Intro />
             <Compound />
+            <WhenBuy />
         </div>
     )
 }
