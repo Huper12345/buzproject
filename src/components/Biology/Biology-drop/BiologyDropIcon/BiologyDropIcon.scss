@@ -1,0 +1,24 @@
+@import "../../../../helpers/colors/colors.scss";
+
+.Biology-Drop-Icon {
+  width: 27px;
+  height: 27px;
+  margin-right: 8px;
+  fill: $violet;
+  cursor: pointer;
+  stroke: $white;
+  transition: 0.3s;
+  transform: rotate(180deg);
+}
+
+.Biology-Drop-Button.active .Biology-Drop-Icon {
+  transform: rotate(0deg);
+  margin-top: 2px;
+  fill: $white;
+}
+
+@media (min-width: 989px) {
+  .Biology-Drop-Button:hover .Biology-Drop-Icon {
+    fill: $white;
+  }
+  }

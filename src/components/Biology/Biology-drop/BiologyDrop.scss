@@ -1,0 +1,35 @@
+@import "../../../helpers/fonts/fonts.scss";
+@import "../../../helpers/colors/colors.scss";
+
+
+
+.Biology-Drop-Button {
+  font-family: 'PTSans-Bold';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 27px;
+    color: $violet;
+    margin: 30px 0px;
+    padding: 5px 17px;
+    background-color: $green;
+    border: 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.Biology-Drop-Button.active {
+  color: $white;
+  background-color: $blue;
+}
+
+
+@media (min-width: 989px) {
+  .Biology-Drop-Button:hover  {
+    color: $white;
+    background-color: $blue;
+  }
+  }

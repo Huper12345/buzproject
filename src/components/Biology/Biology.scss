@@ -1,0 +1,22 @@
+@import "../../helpers/colors/colors.scss";
+@import "../../helpers/fonts/fonts.scss";
+
+
+.Biology {
+    background: url("../../helpers/assets/images/home/newDots.png") no-repeat;
+    background-size: cover;
+    background-color: $lightgray;
+    }
+
+.B-Table {
+    display: block;
+    max-width: 80%;
+}
+
+.Biology-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0px;
+}
