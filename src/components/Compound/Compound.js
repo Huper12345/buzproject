@@ -330,6 +330,7 @@ export const Compound = () => {
             </div>
 
             <div className="Compound">
+                
                 <div className="container gray-back">
                     <div className="Compound-inner">
                         <div className="Compound-Buttons">
