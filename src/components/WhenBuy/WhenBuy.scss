@@ -1,12 +1,18 @@
 @import "../../helpers/colors/colors.scss";
 @import "../../helpers/fonts/fonts.scss";
 
+
+.WhenBuy {
+    background: url("../../helpers/assets/images/home/dots2.png") center no-repeat;
+    background-size: cover;
+}
+
 .WhenBuy-content {
     background-color: $white;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding: 20px 60px;
+    padding: 40px 50px 10px 50px;
 }
 
 
