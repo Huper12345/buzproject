@@ -4,6 +4,8 @@ import { Intro } from "../../components/Intro"
 import { Compound } from "../../components/Compound"
 import { WhenBuy } from "../../components/WhenBuy"
 import { Biology } from "../../components/Biology"
+import { DoctorQuestion } from "../../components/DoctorQuestion"
+import { ToastContainer } from 'react-toastify';
 
 
 export const Home = () => {
@@ -14,6 +16,8 @@ export const Home = () => {
             <Compound />
             <WhenBuy />
             <Biology />
+            <DoctorQuestion />
+            <ToastContainer />
         </div>
     )
 }
