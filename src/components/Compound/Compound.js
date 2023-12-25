@@ -331,7 +331,7 @@ export const Compound = () => {
 
             <div className="Compound">
                 
-                <div className="container gray-back">
+                <div id="compound" className="container gray-back">
                     <div className="Compound-inner">
                         <div className="Compound-Buttons">
                             <h3 className="Compound-Title">1 таблетка содержит:</h3>

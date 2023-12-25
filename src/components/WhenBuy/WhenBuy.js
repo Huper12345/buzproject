@@ -23,7 +23,7 @@ export const WhenBuy = () => {
     
     return(
         <div className="WhenBuy">
-            <div className="container">
+            <div id="whenbuy" className="container">
                 <div className="WhenBuy-inner">
                     <Title TitleText="Где купить?" />
                     <div className="WhenBuy-content">

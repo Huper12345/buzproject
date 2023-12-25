@@ -2,7 +2,7 @@ import React from "react";
 import "./Logo.scss";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-export const Logo = ({logoImage, alt="Logo", className="Logo-Img", width="220px", height="48px"}) => {
+export const Logo = ({logoImage, alt="Logo", className="Logo-Img", width="220px", height="48px", to="Intro"}) => {
   return (
     <div className="Logo">
       <Link

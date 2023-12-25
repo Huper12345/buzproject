@@ -13,13 +13,17 @@ export const Header = () => {
                     <Logo logoImage={LogoT} />
                     <div className="Header-Content">
                         <Nav />
-                        <Logo 
-                        logoImage={LogoA}
-                        alt="LogoAmateg"
-                        width="149px"
-                        height="45px"
-                        className=".Logo-Img Amateg"
-                        />
+                        <a 
+                        href="https://amateg.by/" 
+                        className="Logo-Link" 
+                        target="blank">
+                        <img 
+                        className="Logo-Img Amateg" 
+                        alt="LogoAmateg" 
+                        width="153px" 
+                        height="49px" 
+                        src={LogoA}></img>
+                        </a>
                     </div>
 
                 </div>

@@ -13,7 +13,7 @@
     font-style: bold;
     font-weight: 600;
     font-size: 27px;
-    color: $violet;
+    color: $white;
     margin: 30px 0px;
     padding: 5px 17px;
     background-color: $green;
@@ -30,10 +30,10 @@
   font-family: 'PTSans-Bold';
     font-style: bold;
     font-weight: 600;
-    color: $violet;
+    color: $gray;
     margin: 30px;
     font-size: 25px;
-    border: 3px solid $violet;
+    border: 3px solid $gray;
     background-color: $white;
     border-radius: 15px;
     padding: 5px 12px;
@@ -72,10 +72,11 @@
   font-size: 20px;
   text-align: left;
   margin: 5px 120px;
-  border: 3px solid $violet;
+  border: 3px solid $green;
   padding: 30px;
   border-radius: 15px;
   background-color: $white;
+  color: gray;
 }
 
 

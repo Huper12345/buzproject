@@ -16,24 +16,28 @@ export const Footer = () => {
                         logoImage={FootL}
                         />
                         <FooterNav 
-                        href1="#"
+                        href1="introscrool"
                         text1="О продукте"
-                        href2="#"
+                        href2="whenbuy"
                         text2="Где купить?"
-                        href3="#"
+                        href3="compound"
                         text3="Состав"
-                        href4="#"
+                        href4="https://amateg.by/"
                         text4="Производитель"
                         />
                     </div>
                     <div className="Footer-Item">
-                        <Logo
-                        logoImage={AmategF} 
-                         alt="LogoAmateg"
-                         width="149px"
-                         height="45px"
-                         className="Logo-Img Amateg AmategFooter"
-                        />
+                    <a 
+                        href="https://amateg.by/" 
+                        className="Logo-Link" 
+                        target="blank">
+                        <img 
+                        className="Logo-Img Amateg AmategFooter" 
+                        alt="LogoAmateg" 
+                        width="149px" 
+                        height="45px" 
+                        src={AmategF}></img>
+                        </a>
                         <Contacts 
                         />
                     </div>

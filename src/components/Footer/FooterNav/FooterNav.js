@@ -50,16 +50,9 @@ export const FooterNav = (
         {text3}
       </Link>
 
-      <Link
-        to={href4}
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={600}
-        className="Footer-Nav-Link"
-      >
+      <a className="Footer-Nav-Link" href={href4} target="blank">
         {text4}
-      </Link>
+      </a>
     </nav>
   );
 };
