@@ -9,7 +9,7 @@ export const Nav = (
         <div className='Nav'>
             <div className="Nav-container">
                 <Link
-                to="#"
+                to="introscrool"
                 smooth={true}
                 offset={-70}
                 duration={600}
@@ -19,7 +19,7 @@ export const Nav = (
                 </Link>          
 
                 <Link
-                to="#"
+                to="whenbuy"
                 smooth={true}
                 offset={-70}
                 duration={600}
@@ -29,7 +29,7 @@ export const Nav = (
                 </Link>   
 
                 <Link
-                to="#"
+                to="compound"
                 smooth={true}
                 offset={-70}
                 duration={600}

@@ -21,7 +21,7 @@ const refComponent = createRef();
                         <div className='Intro-content'>
                             <h1 className='Intro-title'>ИММУНО-КОМПЛЕКС 3+ с бузиной, витаминами, минералами и пребиотиком</h1>
                             
-                            <div className='Advantages-container'>
+                            <div id='introscrool' className='Advantages-container'>
                                 <Advantages 
                                 buttonText="Рекомендации к применению"
                                 droptext="Детям старше 3 лет по 1
