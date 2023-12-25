@@ -1,0 +1,45 @@
+@import "../../../helpers/fonts/fonts.scss";
+@import "../../../helpers/colors/colors.scss";
+
+.Contacts-Container {
+  max-width: 550px;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.Contacts-Title {
+  font-size: 21px;
+  font-family: 'PTSans-Bold';
+  font-style: bold;
+  font-weight: 600;
+  color: $violet;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.Contacts-Subtext {
+  font-size: 22px;
+  font-family: 'PTSans-Bold';
+  font-style: bold;
+  font-weight: 600;
+  color: $violet;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 734px) {
+  .Contacts-Title {
+    font-size: 16px;
+  }
+
+  .Contacts-Subtext {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Contacts-Container {
+    margin-top: 20px;
+  }
+
+}

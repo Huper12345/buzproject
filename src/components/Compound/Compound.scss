@@ -6,7 +6,11 @@
 background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
 background-size: cover;
 background-color: $lightgray;
-margin-top: 20px;
+}
+
+.Compound-wrapper {
+    background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
+    background-size: cover; 
 }
 
 .Compound-Title {
@@ -120,6 +124,7 @@ margin-top: 20px;
     border-color: $green;
     color: $green;
 }
+
 
 .Compound-Button::before {
     position: absolute;

@@ -1,0 +1,38 @@
+@import "../../helpers/fonts/fonts.scss";
+@import "../../helpers/colors/colors.scss";
+
+.Footer {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 850;
+    background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
+    background-size: cover;
+    background-color: $lightgray;
+    
+  }
+  
+  .Footer-Inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 40px 20px;
+    height: 100%;
+  }
+
+
+  @media (max-width: 500px) {
+    .Footer-Inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Contacts-Container {
+      margin-top: 20px;
+    }
+
+    .Footer {
+      height: 700px;
+    }
+}
