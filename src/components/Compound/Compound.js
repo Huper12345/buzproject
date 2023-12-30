@@ -192,7 +192,7 @@ export const Compound = () => {
     }
 
     const VitaminD3 = () => {
-        setValue("Витамин D участвует в заживлении ран, снижает вероятность инфекций верхних дыхательных путей")
+        setValue("Витамин D снижает вероятность инфекций верхних дыхательных путей, повышает уровень энергии и укрепляет иммунитет")
 
              setSwitherImage("Switcher-Img hide")
              setCompoundText("Compound-White-Text")
@@ -351,7 +351,7 @@ export const Compound = () => {
 
                             <button onClick={Zink}  className={ZinkClass}>
                             Цинк
-                            <div className="Compound-Button-subtext additional13">2,48 мкг</div>
+                            <div className="Compound-Button-subtext additional13">2,48 мг</div>
                             </button>
 
                             <button onClick={VitaminA} className={VitaminAClass}>
@@ -364,11 +364,13 @@ export const Compound = () => {
                             <div className="Compound-Button-subtext">16 мг</div>
                             </button>
 
-                            <button onClick={VitaminD3} className={VitaminD3Class}>
-                            Витамин D3
-                            <div className="Compound-Button-subtext additional12">3 мкг</div>
+                            <button onClick={UltraL} className={UltraLClass}>
+                            Ультрализат пептидный
+                            Lactobacillus acidophilus
+                            <div className="Compound-Button-subtext">10 мг</div>
                             </button>
 
+                        
                             <button onClick={VitaminE} className={VitaminEClass}>
                             Витамин E
                             <div className="Compound-Button-subtext">2 мг</div>
@@ -379,10 +381,11 @@ export const Compound = () => {
                             <div className="Compound-Button-subtext">10 мг</div>
                             </button>
 
-                            <button onClick={UltraL} className={UltraLClass}>
-                            Ультрализат пептидный
-                            Lactobacillus acidophilus
-                            <div className="Compound-Button-subtext">10 мг</div>
+                            <button onClick={VitaminD3} className={VitaminD3Class}>
+                            Витамин D3
+                            <div className="Compound-Button-subtext additional13">120 
+                            <span className="compound-subtext-small"> МЕ</span>
+                            </div>
                             </button>
 
                             <button onClick={UltraS} className={UltraSClass}>
