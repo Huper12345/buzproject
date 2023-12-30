@@ -64,3 +64,13 @@
     }
   }
   
+  @media (max-width: 899px) {
+    .Preferences {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .Preferences-item {
+        width: 100%;
+    }
+}

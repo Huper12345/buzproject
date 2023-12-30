@@ -14,12 +14,6 @@ import { useState } from "react"
 export const WhenBuy = () => {
 
     
-    const [orderBox, setOrderBox] = useState("WhenBuy-Order")
-    
-
-    const handleBox = () => {
-        setOrderBox("WhenBuy-Order active")
-    }
     
     return(
         <div className="WhenBuy">
@@ -38,14 +32,14 @@ export const WhenBuy = () => {
                                 площадке по <span className="Buy-Subtile-Additional">выгодной цене</span> 
                                 </div>
                             </div>
-                            <button onClick={handleBox} className="Order-Button">
+                            <button className="Order-Button">
                                 Заказать
                                 <ArrowIcon />
                             </button>
 
                         </div>
 
-                       <div className={orderBox}>
+                       <div className="WhenBuy-Order">
                             <MarketButton
                             text="103.by"
                             src={market103}

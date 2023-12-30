@@ -2,11 +2,57 @@
 @import "../../../helpers/colors/colors.scss";
 
 
+
+// toggle
+
+.toggle-container {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    display: block;
+}
+
+.Nav-Mobile-Drop {
+    position: relative;
+    font-size: 0;
+    border: 0;
+    width: 30px;
+    height: 3px;
+    background-color: $violet;
+    cursor: pointer;
+}
+
+.Nav-Mobile-Drop::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: $violet;
+    top: 8px;
+    left: 0;
+}
+
+.Nav-Mobile-Drop::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: $violet;
+    bottom: 8px;
+    left: 0;
+}
+
 .Nav-container {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     margin: 20px 0px;
+}
+
+.Nav-container.active {
+    display: flex;
 }
 
 .Nav-link {
@@ -36,17 +82,33 @@
 }
 
 
+
 @media (max-width: 899px) {
     .Nav-container {
         flex-wrap: wrap;
         flex-direction: column;
         width: 100%;
+        align-items: flex-start;
+        display: none;
+        flex-wrap: wrap;
     }
+   
+
+    .Nav-link {
+        margin: 10px 20px;
+
+    }
+
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 899px) {
     .Nav-link:hover {
         color: $blue;
+
+    }
+
+    .toggle-container {
+        display: none;
     }
 
     .Nav-link:hover::after {

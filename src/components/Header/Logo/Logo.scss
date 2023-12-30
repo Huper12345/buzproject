@@ -8,13 +8,19 @@
 
 .Amateg {
   max-width: 150px;
-  margin-left: 20px;
+  margin: 0px 0 0px 15px;
   cursor: pointer;
   display: block;
 }
 
 .AmategFooter {
 margin-left: 0px;
+}
+
+@media (max-width: 899px) {
+  .Amateg {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 500px) {

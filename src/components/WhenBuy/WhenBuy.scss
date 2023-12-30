@@ -92,7 +92,6 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    cursor: pointer;
     transition: 0.3s;
     margin: 30px 5px 10px 5px;
 }
@@ -110,18 +109,3 @@
     transition: 0.1s;
 }
 
-.WhenBuy-Order.active {
-    opacity: 1;
-    border: 3px solid $green;
-    border-radius: 13px;
-    padding: 12.5px 17.5px 0px 17.5px;
-}
-
-
-
-@media (min-width: 989px) {
-    .Order-Button:hover {
-        color: $blue;
-    }
-
-    }

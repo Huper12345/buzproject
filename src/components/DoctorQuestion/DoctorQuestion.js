@@ -23,10 +23,6 @@ export const DoctorQuestion = () => {
   const NotifyYesDoctor = "custom-id-yes-Doctor";
   const NotifyNoDoctor = "custom-id-no-Doctor";
 
-  const switchFormClass = () => {
-    setInputClass("Question-Input inputBorderGreen");
-    setTextAreaClass("Question-Message textAreaBorderGreen")
-  } 
 
   const notifySucsesfullyDoctor = () => {
       toast.success("Успешно отправлено", {
@@ -98,7 +94,6 @@ export const DoctorQuestion = () => {
                 </div>
               </div>
               <button
-              onClick={switchFormClass}
                className="Order-Button">
               Заполнить
               <ArrowIcon />

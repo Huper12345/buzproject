@@ -98,9 +98,9 @@ background-color: $lightgray;
     border-bottom-right-radius: 40px;
     border-top-right-radius: 40px;
     position: relative;
-    border: 2.5px solid $gray;
+    border: 2.5px solid $blue;
     background-color: $white;
-    color: $gray;
+    color: $blue;
     cursor: pointer;
     min-width: 230px;
     text-align: center;
@@ -131,7 +131,7 @@ background-color: $lightgray;
     content: "";
     height: 39px;
     width: 39px;
-    background-color: $gray;
+    background-color: $blue;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -157,6 +157,10 @@ background-color: $lightgray;
     top: 6px;
 }
 
+.compound-subtext-small {
+    font-size: 12px;
+}
+
 .Compound-Button-subtext.additional12 {
     font-size: 14px;
     left: 7px;
@@ -165,13 +169,13 @@ background-color: $lightgray;
 
 @media (min-width: 989px) {
     .Compound-Button:hover::before {
-        background-color: $blue;
+        background-color: $green;
         transition: 0.3s;
     }
     
     .Compound-Button:hover {
-        border-color: $blue;
-        color: $blue;
+        border-color: $green;
+        color: $green;
         transition: 0.3s;
     }
 
