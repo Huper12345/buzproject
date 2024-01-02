@@ -2,9 +2,6 @@ import "./Compound.scss";
 import React, {useState } from 'react';
 
 import SwitcherImage from "../../helpers/assets/images/compoundTextSwitcher/buzzicolImage.png"
-import { Title } from "../../helpers/components/Title";
-
-
 
 export const Compound = () => {
 
@@ -325,9 +322,6 @@ export const Compound = () => {
     return(
         <div className="Compound-wrapper">
             
-            <div className="container">
-            <Title TitleText="Состав" />
-            </div>
 
             <div className="Compound">
                 

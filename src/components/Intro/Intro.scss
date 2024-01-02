@@ -59,4 +59,21 @@
         flex-wrap: wrap;
     }
 
+    .Intro-content {
+        margin: 12px 0px 0px 12px;
+        align-items: center;
+    }
+
 }
+
+@media (max-width: 426px) {
+    .Intro-title {
+        font-size: 29px;
+        margin-bottom: 22px;
+    }
+
+    .Intro-wrapper {
+       align-items: center;
+    }
+    
+  }

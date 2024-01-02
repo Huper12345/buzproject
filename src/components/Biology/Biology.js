@@ -1,5 +1,4 @@
 import "./Biology.scss";
-import { Title } from "../../helpers/components/Title";
 import table from "../../helpers/assets/images/Biology/table.png"
 import { BiologyDrop } from "./Biology-drop";
 
@@ -8,11 +7,6 @@ import { BiologyDrop } from "./Biology-drop";
 export const Biology = () => {
     return(
         <div className="Biology-wrapper">
-            <div className="container">
-            <Title 
-            TitleColor="Title-Text TitleM"
-            TitleText="Содержание биологически активных веществ" />
-            </div>
             <div className="Biology">
                 <div className="container gray-back">
                     <div className="Biology-inner">
