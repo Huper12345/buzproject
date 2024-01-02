@@ -70,7 +70,19 @@
 
 @media (max-width: 426px) {
   .Plus-Icon {
-    margin: 20px 16px 0px 15px;
+    margin: 5px 0px 0px 15px;
+  }
+
+  .Plus-Icon::after {
+    width: 13px;
+    height: 3px;
+   
+  }
+  
+  .Plus-Icon::before  {
+    width: 13px;
+    height: 3px;
+   
   }
   
 }

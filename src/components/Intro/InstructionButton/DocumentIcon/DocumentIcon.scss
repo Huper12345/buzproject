@@ -9,3 +9,11 @@
   stroke: $white;
   transition: 0.2s;
 }
+
+
+@media (max-width: 426px) {
+  .Document-Icon {
+    width: 27px;
+    height: 27px;
+  }
+}
