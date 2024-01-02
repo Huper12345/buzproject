@@ -7,8 +7,6 @@ import market103 from "../../helpers/assets/images/marketButtons/103by.png"
 import wildberries from "../../helpers/assets/images/marketButtons/widlberries.png"
 import ozon from "../../helpers/assets/images/marketButtons/ozon.png"
 
-import { useState } from "react"
-
 
 
 export const WhenBuy = () => {
@@ -66,6 +64,10 @@ export const WhenBuy = () => {
                         </div>
                     </div>
                 </div>
+                <Title 
+                TitleColor="Title-Text TitleM"
+                TitleText="Содержание биологически активных веществ"
+                />
             </div>
         </div>
     )
