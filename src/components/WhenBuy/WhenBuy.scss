@@ -113,6 +113,11 @@
 @media (max-width: 1051px) { 
 .WhenBuy-content {
     flex-wrap: wrap;
+    padding: 25px;
+}
+
+.WhenBuy {
+    background: none;
 }
 }
 
@@ -136,4 +141,15 @@
   .When-Buy-Img {
     max-width: 200px;
   }
+    }
+
+    @media (max-width: 404px) { 
+       .Buy-Text-Title {
+        font-size: 18px;
+       }
+
+       .WhenBuy-text.forQuestion {
+        width: 100%;
+        margin: 5px;
+       }
     }
