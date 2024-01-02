@@ -32,7 +32,9 @@ export const WhenBuy = () => {
                             </div>
                             <button className="Order-Button">
                                 Заказать
-                                <ArrowIcon />
+                                <ArrowIcon
+                                arrowClass="Arrow-Icon"
+                                />
                             </button>
 
                         </div>

@@ -109,3 +109,31 @@
     transition: 0.1s;
 }
 
+
+@media (max-width: 1051px) { 
+.WhenBuy-content {
+    flex-wrap: wrap;
+}
+}
+
+@media (max-width: 571px) { 
+  .Buy-Text-Title {
+    font-size: 19px;
+  }
+
+  .WhenBuy-Text {
+    margin: 13px 5px;
+  }
+
+  .Buy-Text-Subtitle {
+    font-size: 17px;
+  }
+
+  .Order-Button {
+    font-size: 24px;
+  }
+
+  .When-Buy-Img {
+    max-width: 200px;
+  }
+    }

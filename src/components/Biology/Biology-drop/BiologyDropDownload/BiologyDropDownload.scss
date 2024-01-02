@@ -19,3 +19,9 @@
     stroke: $white;
   }
   }
+
+  @media (max-width: 864px) {
+    .Biology-Download-Button {
+      font-size: 24px;
+    }
+   }

@@ -8,3 +8,13 @@
   stroke: $white;
   transition: 0.3s;
 }
+
+
+
+@media (max-width: 952px) { 
+  .Arrow-Icon {
+    transform: rotate(90deg);
+  }
+}
+
+
