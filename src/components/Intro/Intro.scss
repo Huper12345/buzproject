@@ -6,11 +6,10 @@
     width: 100%;
     padding-top: 190px;
     display: flex;
-    background: url("../../helpers/assets/images/home/dots2.png") center no-repeat;
+    background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
     background-size: cover;
+    background-position: -2px 2px;
 }
-
-
 
 .Intro-inner {
     display: flex;
@@ -77,3 +76,59 @@
     }
     
   }
+
+  @media (min-width: 1555px) { 
+    .Intro {
+        background-position: -13px 10px;
+    }
+}
+
+
+  @media (max-width: 1536px) { 
+    .Intro {
+        background-position: 0px 10px;
+    }
+}
+
+
+  @media (max-width: 1523px) { 
+    .Intro {
+        background-position: -5px 10px;
+    }
+}
+
+
+  @media (max-width: 1500px) { 
+    .Intro {
+        background-position: 27px 10px;
+    }
+}
+
+
+
+
+@media (max-width: 1490px) { 
+    .Intro {
+        background-position: 18px 10px;
+    }
+}
+
+@media (max-width: 1473px) { 
+    .Intro {
+        background-position: -10px 10px;
+    }
+}
+
+
+@media (max-width: 1371px) { 
+    .Intro {
+        background-position: -5px -2px;
+    }
+}
+
+
+@media (max-width: 1345px) { 
+    .Intro {
+        background-position: 12px -2px;
+    }
+}
