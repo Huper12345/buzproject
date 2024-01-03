@@ -1,11 +1,11 @@
 import "./WhenBuy.scss"
 import { Title } from "../../helpers/components/Title"
-import BuyImage from "../../helpers/assets/images/intro/BuzzicolPack.png"
+import BuyImage from "../../helpers/assets/images/intro/BuzzicolPack.webp"
 import { ArrowIcon } from "./ArrowIcon"
 import { MarketButton } from "./MarketButton"
-import market103 from "../../helpers/assets/images/marketButtons/103by.png"
-import wildberries from "../../helpers/assets/images/marketButtons/widlberries.png"
-import ozon from "../../helpers/assets/images/marketButtons/ozon.png"
+import market103 from "../../helpers/assets/images/marketButtons/103by.webp"
+import wildberries from "../../helpers/assets/images/marketButtons/widlberries.webp"
+import ozon from "../../helpers/assets/images/marketButtons/ozon.webp"
 
 
 

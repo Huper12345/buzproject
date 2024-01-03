@@ -1,7 +1,7 @@
 import "./Header.scss"
 import { Logo } from "./Logo"
 import { Nav } from "./Nav"
-import LogoT from "../../helpers/assets/images/logo/BuzzicolR.png";
+import LogoT from "../../helpers/assets/images/logo/BuzzicolR.webp";
 
 
 

@@ -2,8 +2,8 @@ import "./Footer.scss"
 import { FooterNav } from "./FooterNav";
 import { Contacts } from "./Contacts";
 import { Logo } from "../Header/Logo";
-import FootL from "../../helpers/assets/images/logo/BuzzicolR.png"
-import AmategF from "../../helpers/assets/images/logo/LogoAmateg.png"
+import FootL from "../../helpers/assets/images/logo/BuzzicolR.webp"
+import AmategF from "../../helpers/assets/images/logo/LogoAmateg.webp"
 
 
 export const Footer = () => {

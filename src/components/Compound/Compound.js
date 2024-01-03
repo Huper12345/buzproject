@@ -1,7 +1,7 @@
 import "./Compound.scss";
 import React, {useState } from 'react';
 
-import SwitcherImage from "../../helpers/assets/images/compoundTextSwitcher/buzzicolImage.png"
+import SwitcherImage from "../../helpers/assets/images/compoundTextSwitcher/buzzicolImage.webp"
 
 export const Compound = () => {
 

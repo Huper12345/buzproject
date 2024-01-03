@@ -1,5 +1,5 @@
 import "./Biology.scss";
-import table from "../../helpers/assets/images/Biology/table.png"
+import table from "../../helpers/assets/images/Biology/table.webp"
 import { BiologyDrop } from "./Biology-drop";
 
 

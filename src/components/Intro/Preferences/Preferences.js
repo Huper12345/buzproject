@@ -1,9 +1,9 @@
 import "./Preferences.scss";
-import Colb from "../../../helpers/assets/images/preferences/colb.png"
-import AllFamily from "../../../helpers/assets/images/preferences/allfamily.png"
-import MadeInRB from "../../../helpers/assets/images/preferences/madeinRB.png"
-import TimeC from "../../../helpers/assets/images/preferences/TimeC.png"
-import Price from "../../../helpers/assets/images/preferences/Price.png"
+import Colb from "../../../helpers/assets/images/preferences/colb.webp"
+import AllFamily from "../../../helpers/assets/images/preferences/allfamily.webp"
+import MadeInRB from "../../../helpers/assets/images/preferences/madeinRB.webp"
+import TimeC from "../../../helpers/assets/images/preferences/TimeC.webp"
+import Price from "../../../helpers/assets/images/preferences/Price.webp"
 
 
 

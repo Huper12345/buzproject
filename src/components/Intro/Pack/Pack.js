@@ -1,5 +1,5 @@
 import './Pack.scss';
-import BuzImg from "../../../helpers/assets/images/intro/BuzzicolPack.png"
+import BuzImg from "../../../helpers/assets/images/intro/BuzzicolPack.webp"
 
 
 export const Pack = () => {
