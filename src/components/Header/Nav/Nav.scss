@@ -8,7 +8,7 @@
 .toggle-container {
     position: absolute;
     right: 10px;
-    top: 9px;
+    top: 18px;
     display: block;
 }
 
@@ -100,6 +100,15 @@
     }
 
   }
+
+  @media (max-width: 500px) { 
+    .toggle-container {
+        top: 11px;
+      
+    }
+
+  }
+
 
   @media (min-width: 899px) {
     .Nav-link:hover {

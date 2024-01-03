@@ -3,9 +3,10 @@
 
 
 .DoctorQuestion-Container {
-  background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
+  background: url("../../helpers/assets/images/home/dots2.webp") no-repeat;
   background-size: cover;
   margin-bottom: 20px;
+  background-position: -2px 0px;
 }
 
 
@@ -160,6 +161,7 @@
  .Doctor-Question-Inner {
   flex-direction: column;
   align-items: center;
+  padding-bottom: 100px;
  }
 
  .Doctor-Img {
@@ -176,5 +178,39 @@
   .Doctor-Question-Button:hover {
     color: $white;
     background-color: $blue;
+  }
+}
+
+
+@media (min-width: 1555px) { 
+  .DoctorQuestion-Container {
+      background-position: -3px 5px;
+  }
+}
+
+
+@media (max-width: 1536px) { 
+  .DoctorQuestion-Container {
+      background-position: 0px 5px;
+  }
+}
+
+
+@media (max-width: 1523px) { 
+  .DoctorQuestion-Container {
+      background-position: -5px 5px;
+  }
+}
+
+
+@media (max-width: 1495px) { 
+  .DoctorQuestion-Container {
+      background-position: 8px 5px;
+  }
+}
+
+@media (max-width: 1371px) { 
+  .DoctorQuestion-Container {
+      background-position: -5px 5px;
   }
 }

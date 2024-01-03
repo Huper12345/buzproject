@@ -7,9 +7,10 @@
     position: absolute;
     bottom: 0;
     z-index: 850;
-    background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
+    background: url("../../helpers/assets/images/home/dots2.webp") no-repeat;
     background-size: cover;
     background-color: $lightgray;
+    background-position: -2px 20px;
     
   }
   
@@ -43,4 +44,43 @@
       align-items: center;
       justify-content: center;
     }
+}
+
+
+@media (min-width: 1555px) { 
+  .Footer {
+      background-position: -3px 20px;
+  }
+}
+
+@media (max-width: 1536px) { 
+  .Footer {
+      background-position: 0px 20px;
+  }
+}
+
+
+@media (max-width: 1523px) { 
+  .Footer {
+      background-position: -6px 11px;
+  }
+}
+
+@media (max-width: 1490px) { 
+  .Footer {
+      background-position: 8px 5px;
+  }
+}
+
+@media (max-width: 1371px) { 
+  .Footer {
+      background-position: 5px 25px;
+  }
+}
+
+
+@media (max-width: 1345px) { 
+  .Footer {
+      background-position: 5px 23px;
+  }
 }

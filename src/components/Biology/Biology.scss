@@ -3,9 +3,10 @@
 
 
 .Biology {
-    background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
+    background: url("../../helpers/assets/images/home/dots2.webp") no-repeat;
     background-size: cover;
     background-color: $lightgray;
+    background-position: -2px 0px;
     }
 
 .B-Table {
@@ -14,7 +15,7 @@
 }
 
 .Biology-wrapper {
-    background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
+    background: url("../../helpers/assets/images/home/dots2.webp") no-repeat;
     background-size: cover;
 }
 
@@ -24,4 +25,37 @@
     justify-content: center;
     flex-direction: column;
     padding: 20px 0px;
+}
+
+
+@media (min-width: 1555px) { 
+    .Biology {
+        background-position: 8px 5px;
+    }
+}
+
+
+@media (max-width: 1536px) { 
+    .Biology {
+        background-position: 0px 5px;
+    }
+}
+
+@media (max-width: 1523px) { 
+    .Biology {
+        background-position: -5px 5px;
+    }
+}
+
+@media (max-width: 1490px) { 
+    .Biology {
+        background-position: 8px 5px;
+    }
+}
+
+
+@media (max-width: 1371px) { 
+    .Biology {
+        background-position: -2px 5px;
+    }
 }

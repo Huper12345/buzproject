@@ -3,15 +3,12 @@
 
 
 .Compound {
-background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
+background: url("../../helpers/assets/images/home/dots2.webp") no-repeat;
 background-size: cover;
 background-color: $lightgray;
+background-position: -2px 0px;
 }
 
-.Compound-wrapper {
-    background: url("../../helpers/assets/images/home/dots2.png") no-repeat;
-    background-size: cover; 
-}
 
 .Compound-Title {
     font-family: 'Rotonda-Bold';
@@ -230,3 +227,44 @@ background-color: $lightgray;
             font-size: 16px;
         }
      }
+
+
+     @media (min-width: 1555px) { 
+        .Compound{
+            background-position: -13px 10px;
+        }
+    }
+
+
+     @media (max-width: 1536px) { 
+        .Compound{
+            background-position: 0px 10px;
+        }
+    }
+
+
+     @media (max-width: 1523px) { 
+        .Compound{
+            background-position: -6px 10px;
+        }
+    }
+
+
+     @media (max-width: 1495px) { 
+        .Compound{
+            background-position: 15px 10px;
+        }
+    }
+
+    @media (max-width: 1371px) { 
+        .Compound{
+            background-position: -5px 10px;
+        }
+    }
+
+
+    @media (max-width: 1345px) { 
+        .Compound{
+            background-position: 12px 10px;
+        }
+    }

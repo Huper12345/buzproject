@@ -1,7 +1,7 @@
 import './Nav.scss';
 import { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import LogoA from "../../../helpers/assets/images/logo/LogoAmateg.png"
+import LogoA from "../../../helpers/assets/images/logo/LogoAmateg.webp"
 
 
 export const Nav = () => {
