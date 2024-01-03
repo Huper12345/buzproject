@@ -20,7 +20,7 @@ export const WhenBuy = () => {
                     <Title TitleText="Где купить?" />
                     <div className="WhenBuy-content">
                         <div className="WhenBuy-Image">
-                            <img src={BuyImage} alt="buyImg" className="When-Buy-Img"></img>
+                            <img width="270px" height="auto" src={BuyImage} alt="buyImg" className="When-Buy-Img"></img>
                         </div>
 
                         <div className="WhenBuy-Text">
