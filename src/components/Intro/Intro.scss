@@ -40,6 +40,12 @@
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 40px;
+
+}
+
+.Intro-subtile {
+    margin: 0;
+    padding: 0;
 }
 
 .Intro-content {
@@ -65,7 +71,15 @@
 
 }
 
-@media (max-width: 426px) {
+
+@media (max-width: 471px) {
+    .Intro-title {
+        font-size: 34px;
+        margin-bottom: 22px;
+    }    
+  }
+
+@media (max-width: 435px) {
     .Intro-title {
         font-size: 29px;
         margin-bottom: 22px;
@@ -76,6 +90,30 @@
     }
     
   }
+
+
+  @media (max-width: 377px) {
+    .Intro-title {
+        font-size: 26px;
+        margin-bottom: 22px;
+    }    
+  }
+
+
+  @media (max-width: 342px) {
+    .Intro-title {
+        font-size: 24px;
+        margin-bottom: 22px;
+    }    
+  }
+
+  @media (max-width: 323px) {
+    .Intro-title {
+        font-size: 22px;
+        margin-bottom: 22px;
+    }    
+  }
+
 
   @media (min-width: 1555px) { 
     .Intro {

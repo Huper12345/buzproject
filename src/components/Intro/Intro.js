@@ -20,7 +20,11 @@ const refComponent = createRef();
                         <TopButton refComponent={refComponent}/>
                         <Pack />
                         <div className='Intro-content'>
-                            <h1 className='Intro-title'>ИММУНО-КОМПЛЕКС 3+ с бузиной, витаминами, минералами и пребиотиком</h1>
+                            <h1 className='Intro-title'>ИММУНО-КОМПЛЕКС 3+
+                            <p className='Intro-subtile'>
+                            с бузиной, витаминами, минералами и пребиотиком
+                            </p>
+                            </h1>
                             
                             <div id='introscrool' className='Advantages-container'>
                                 <Advantages 
