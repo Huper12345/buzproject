@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "buzzicol.ru",
+  "name": "ИММУНО-КОМПЛЕКС 3+ С БУЗИНОЙ, ВИТАМИНАМИ, МИНЕРАЛАМИ И ПРЕБИОТИКОМ",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,9 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "apple-touch-icon.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "152x152"
     },
     {
       "src": "logo512.png",
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://buzzicol.ru/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

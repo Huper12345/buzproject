@@ -7,12 +7,8 @@ import market103 from "../../helpers/assets/images/marketButtons/103by.webp"
 import wildberries from "../../helpers/assets/images/marketButtons/widlberries.webp"
 import ozon from "../../helpers/assets/images/marketButtons/ozon.webp"
 
-
-
 export const WhenBuy = () => {
 
-    
-    
     return(
         <div className="WhenBuy">
             <div id="whenbuy" className="container">
@@ -25,7 +21,7 @@ export const WhenBuy = () => {
 
                         <div className="WhenBuy-Text">
                             <div className="WhenBuy-Text-Content">
-                                <h4 className="Buy-Text-Title">ИММУНО-КОМПЛЕКС 3+ с бузиной, витаминами, минералами и пребиотиком</h4>
+                                <h3 className="Buy-Text-Title">ИММУНО-КОМПЛЕКС 3+ с бузиной, витаминами, минералами и пребиотиком</h3>
                                 <div className="Buy-Text-Subtitle">можно купить на любой популярной
                                 площадке по <span className="Buy-Subtile-Additional">выгодной цене</span> 
                                 </div>
@@ -43,14 +39,14 @@ export const WhenBuy = () => {
                             <MarketButton
                             text="103.by"
                             src={market103}
-                            alt="103.by"
+                            alt="103.by Информационный ресурс"
                             href="https://apteka.103.by/immuno-kompleks-3-s-buzinoy-vitaminami-i-prebiotikom/62802-tabletki-n60/amateg/minsk/?sort=price:asc"
                             />
 
                             <MarketButton
                             text="wildberries.ru"
                             src={wildberries}
-                            alt="wildberiies"
+                            alt="Маркетплейс wildberries"
                             spanType="Buy-Market-Text standart"
                             href="#"
                             />
@@ -58,7 +54,7 @@ export const WhenBuy = () => {
                             <MarketButton
                             text="ozon"
                             src={ozon}
-                            alt="ozon"
+                            alt="Маркетплейс Ozon"
                             spanType="Buy-Market-Text ozon"
                             href="#"
                             />
