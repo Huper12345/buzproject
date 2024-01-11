@@ -1,13 +1,13 @@
 
 
 .Buzzicol-Img {
-    display: block;
+    display: flex;
     max-width: 380px;
 }
 
 @media (max-width: 899px) {
     .Buzzicol-Img {
-        display: block;
+        display: flex;
         max-width: 280px;
     }
 }

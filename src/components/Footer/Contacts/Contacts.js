@@ -21,13 +21,13 @@ export const Contacts = () => {
         }}
       />
 
-      <h5 className="Contacts-Title">
+      <h4 className="Contacts-Title">
        {OrganizationStructuredData.name} {OrganizationStructuredData.address}
         <a className="Contacts-phone" href="tel:+375177755003"> {OrganizationStructuredData.telephone}</a>
-      </h5>
-      <h6 className="Contacts-Subtext">
+      </h4>
+      <h5 className="Contacts-Subtext">
       Продукт Не является лекарственным средством
-      </h6>
+      </h5>
       
     </div>
   );
