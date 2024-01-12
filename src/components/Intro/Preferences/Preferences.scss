@@ -8,7 +8,17 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
+    animation: showDiv 0.2s forwards;
 }
+
+@keyframes showDiv {
+    0%, 99% {
+      display: none;
+    }
+    100% {
+      display: flex;
+    }
+  }
 
 .Preferences-text {
     font-family: 'PTSans-Bold';

@@ -17,35 +17,35 @@ export const Preferences = () => {
             </div> {/* Preferences-item */}
 
             <div className="Preferences-item">
-                <img src={Colb} alt="preferences-item" className="Preferences-item-img"></img>
+                <img width="34px" height="40px" src={Colb} alt="preferences-item" className="Preferences-item-img"></img>
                 <div className="Preferences-text">
                     Без красителей и консервантов
                 </div>
             </div> {/* Preferences-item */}
 
             <div className="Preferences-item">
-                <img src={AllFamily} alt="preferences-item" className="Preferences-item-img"></img>
+                <img width="51px" height="40px" src={AllFamily} alt="preferences-item" className="Preferences-item-img"></img>
                 <div className="Preferences-text short marginLeft-12">
                     Для всей семьи
                 </div>
             </div> {/* Preferences-item */}
 
             <div className="Preferences-item">
-                <img src={MadeInRB} alt="preferences-item" className="Preferences-item-img"></img>
+                <img width="39px" height="40px" src={MadeInRB} alt="preferences-item" className="Preferences-item-img"></img>
                 <div className="Preferences-text short marginLeft-12">
                     Сделано в Беларуси
                 </div>
             </div> {/* Preferences-item */}
 
             <div className="Preferences-item">
-                <img src={TimeC} alt="preferences-item" className="Preferences-item-img"></img>
+                <img width="42px" height="40px" src={TimeC} alt="preferences-item" className="Preferences-item-img"></img>
                 <div className="Preferences-text marginLeft-9">
                     Упаковка на курс приема
                 </div>
             </div> {/* Preferences-item */}
 
             <div className="Preferences-item">
-                <img src={Price} alt="preferences-item" className="Preferences-item-img"></img>
+                <img width="52px" height="40px" src={Price} alt="preferences-item" className="Preferences-item-img"></img>
                 <div className="Preferences-text marginLeft-12">
                    Выгодная цена
                 </div>

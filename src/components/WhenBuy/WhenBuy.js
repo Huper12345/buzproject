@@ -16,7 +16,7 @@ export const WhenBuy = () => {
                     <Title TitleText="Где купить?" />
                     <div className="WhenBuy-content">
                         <div className="WhenBuy-Image">
-                            <img width="270px" height="auto" src={BuyImage} alt="buyImg" className="When-Buy-Img"></img>
+                            <img width="270px" height="332px" src={BuyImage} alt="buyImg" className="When-Buy-Img"></img>
                         </div>
 
                         <div className="WhenBuy-Text">
@@ -37,6 +37,8 @@ export const WhenBuy = () => {
 
                        <div className="WhenBuy-Order">
                             <MarketButton
+                            width="220px"
+                            height="45px"
                             text="103.by"
                             src={market103}
                             alt="103.by Информационный ресурс"
@@ -44,19 +46,23 @@ export const WhenBuy = () => {
                             />
 
                             <MarketButton
+                            width="220px"
+                            height="45px"
                             text="wildberries.ru"
                             src={wildberries}
                             alt="Маркетплейс wildberries"
                             spanType="Buy-Market-Text standart"
-                            href="#"
+                            href="https://www.wildberries.ru/catalog/195311361/detail.aspx"
                             />
 
                             <MarketButton
+                            width="220px"
+                            height="45px"
                             text="ozon"
                             src={ozon}
                             alt="Маркетплейс Ozon"
                             spanType="Buy-Market-Text ozon"
-                            href="#"
+                            href="https://www.ozon.ru/product/immuno-kompleks-3-s-buzinoy-vitaminami-mineralami-i-prebiotikom-buzzikol-1359960631/?_bctx=CAQQzPYC&asb=WaQfk3TjR5bmCrg3f5o%252F9yUlcQpr8YnaHGsflVZs69Q%253D&asb2=6-E4lm5SIjXbcr-h63eT3dmmgBcVhC9908R6tY0Eff7u_uM1MvNAalowPK3rqA9P&avtc=1&avte=2&avts=1705058416&hs=1"
                             />
 
                         </div>

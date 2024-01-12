@@ -3,6 +3,8 @@
 .Buzzicol-Img {
     display: flex;
     max-width: 380px;
+    height: auto;
+    width: 100%;
 }
 
 @media (max-width: 899px) {
