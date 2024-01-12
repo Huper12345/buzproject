@@ -395,7 +395,7 @@ export const Compound = () => {
                         
                             <div className="CompoundTextSwitcher">
 
-                            <img alt="Buzzicol" src={SwitcherImage} className={switcherImage} ></img>
+                            <img width="240px" height="142px" alt="Buzzicol" src={SwitcherImage} className={switcherImage} ></img>
                             <textarea value={value} className={compoundText} >
                             </textarea >
                             </div>
