@@ -57,7 +57,7 @@ export const DoctorQuestion = () => {
     e.preventDefault(); // prevents the page from reloading when you hit “Send”
     emailjs
       .sendForm(
-        "service_9o1c5od",
+        "service_eljyxil",
         "template_9p7rqzs",
         form.current,
         "xwxZOtNhLJnvYzocm"
